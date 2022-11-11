@@ -42,9 +42,9 @@ export default function AddUser() {
         }}
       >
         {({ errors, touched }) => (
-          <div className="container mb-5 p-5">
+          <div className="container mb-5 p-3">
             <div className="row justify-content-center">
-              <Form className="col-5 d-flex flex-column gap-2 rounded-4 shadow-lg p-5">
+              <Form className="col-lg-5 col-md-6 col-sm-10 d-flex flex-column gap-2 rounded-4 shadow-lg p-5">
                 <h4 className="text-primary text-center">ADD USER</h4>
                 <div>
                   <h6>
