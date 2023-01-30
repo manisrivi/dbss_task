@@ -79,7 +79,7 @@ export default function EditUser() {
                   <h6>
                     D.O.B <span className="text-danger">*</span>
                   </h6>
-                  <Field name="dob" type="date" className="form-control" />
+                  <Field id="date" name="dob" type="date" className="form-control" />
                   {errors.dob && touched.dob ? (
                     <div className="text-danger">{errors.dob}*</div>
                   ) : null}
