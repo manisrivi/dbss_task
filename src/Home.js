@@ -66,7 +66,7 @@ export default function Home() {
               </tr>
             </thead>
             <tbody>
-              {users.map((ele, index) => {
+              {users?.map((ele, index) => {
                 return (
                   <tr key={index}>
                     <td>{index + 1}</td>
